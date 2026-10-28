@@ -1,0 +1,230 @@
+﻿import React from "react";
+import { AbsoluteFill, Composition, Img, registerRoot, staticFile } from "remotion";
+
+const FONT = '"Microsoft YaHei", "微软雅黑", sans-serif';
+const Y = "#FFD400";
+
+const Spark: React.FC<{ w: number; h: number; stroke?: string; dot?: string }> = ({
+  w,
+  h,
+  stroke = "#4472C4",
+  dot = "#E03131",
+}) => {
+  const vals = [420, 380, 390, 410, 450, 780, 820];
+  const min = Math.min(...vals);
+  const max = Math.max(...vals);
+  const pad = 10;
+  const pts = vals.map((v, i) => {
+    const x = pad + (i / (vals.length - 1)) * (w - pad * 2);
+    const y = h - pad - ((v - min) / (max - min)) * (h - pad * 2);
+    return { x, y };
+  });
+  const d = pts.map((p, i) => `${i === 0 ? "M" : "L"}${p.x},${p.y}`).join(" ");
+  return (
+    <svg width={w} height={h}>
+      <path d={d} fill="none" stroke={stroke} strokeWidth={Math.max(3, h / 26)} strokeLinejoin="round" strokeLinecap="round" />
+      <circle cx={pts[pts.length - 1].x} cy={pts[pts.length - 1].y} r={Math.max(5, h / 16)} fill={dot} />
+      <circle cx={pts[0].x} cy={pts[0].y} r={Math.max(4, h / 22)} fill="#00B0F0" />
+    </svg>
+  );
+};
+
+const Backdrop: React.FC<{ cols: number; rows: number }> = ({ cols, rows }) => (
+  <>
+    <AbsoluteFill style={{ background: "radial-gradient(120% 90% at 18% 8%, #1b2736 0%, #0b0e13 62%)" }} />
+    {Array.from({ length: rows }).map((_, r) =>
+      Array.from({ length: cols }).map((_, c) => (
+        <div
+          key={`${r}-${c}`}
+          style={{
+            position: "absolute",
+            left: `${(c * 100) / cols}%`,
+            top: `${(r * 100) / rows}%`,
+            width: `${100 / cols}%`,
+            height: `${100 / rows}%`,
+            borderRight: "1px solid rgba(255,255,255,.045)",
+            borderBottom: "1px solid rgba(255,255,255,.045)",
+          }}
+        />
+      ))
+    )}
+  </>
+);
+
+const Chip: React.FC<{ s: number }> = ({ s }) => (
+  <div
+    style={{
+      display: "inline-flex",
+      alignItems: "center",
+      gap: 10 * s,
+      background: "rgba(255,212,0,.14)",
+      border: `2px solid rgba(255,212,0,.55)`,
+      borderRadius: 999,
+      padding: `${8 * s}px ${20 * s}px`,
+      fontFamily: FONT,
+      fontWeight: 800,
+      fontSize: 26 * s,
+      color: Y,
+      letterSpacing: 2,
+    }}
+  >
+    EP03 · EXCEL 技巧
+  </div>
+);
+
+const Landscape: React.FC = () => (
+  <AbsoluteFill>
+    <Backdrop cols={8} rows={6} />
+    <div style={{ position: "absolute", left: 0, right: 0, top: 70, display: "flex", justifyContent: "center" }}>
+      <Chip s={1} />
+    </div>
+    <div style={{ position: "absolute", left: 0, right: 0, top: 168, textAlign: "center" }}>
+      <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 136, lineHeight: 1.05, color: "#fff" }}>
+        一个格子看清一周
+      </div>
+      <div style={{ fontFamily: FONT, fontWeight: 800, fontSize: 42, color: "#8fa0b5", marginTop: 22, letterSpacing: 1 }}>
+        Excel 迷你图 · 三步搞定
+      </div>
+    </div>
+    <div
+      style={{
+        position: "absolute",
+        left: 260,
+        right: 260,
+        top: 470,
+        height: 400,
+        background: "#fff",
+        borderRadius: 26,
+        boxShadow: "0 40px 100px rgba(0,0,0,.6)",
+        padding: 30,
+        boxSizing: "border-box",
+      }}
+    >
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+        <div style={{ fontFamily: FONT, fontSize: 28, fontWeight: 800, color: "#2b3440" }}>趋势</div>
+        <div style={{ fontFamily: FONT, fontSize: 22, fontWeight: 700, color: "#9aa7b6" }}>I2</div>
+      </div>
+      <div style={{ marginTop: 20 }}>
+        <Spark w={1020} h={290} />
+      </div>
+    </div>
+    <div style={{ position: "absolute", left: 0, right: 0, bottom: 128, display: "flex", justifyContent: "center" }}>
+      <div
+        style={{
+          background: "#3DDC84",
+          color: "#08251a",
+          fontFamily: FONT,
+          fontWeight: 900,
+          fontSize: 50,
+          padding: "20px 38px",
+          borderRadius: 16,
+        }}
+      >
+        周末客流 ≈ 工作日 1.8 倍
+      </div>
+    </div>
+    <div
+      style={{
+        position: "absolute",
+        left: 0,
+        right: 0,
+        bottom: 56,
+        textAlign: "center",
+        fontFamily: FONT,
+        fontSize: 26,
+        fontWeight: 700,
+        color: "#6f7f93",
+      }}
+    >
+      30 秒 · 纯录屏 · 六家门店一周客流
+    </div>
+  </AbsoluteFill>
+);
+const Portrait: React.FC = () => (
+  <AbsoluteFill>
+    <Backdrop cols={5} rows={8} />
+    <div style={{ position: "absolute", left: 0, right: 0, top: 120, display: "flex", justifyContent: "center" }}>
+      <Chip s={1} />
+    </div>
+    <div style={{ position: "absolute", left: 0, right: 0, top: 250, textAlign: "center" }}>
+      <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 130, lineHeight: 1.12, color: "#fff" }}>
+        一个格子
+        <br />
+        看清一周
+      </div>
+      <div style={{ fontFamily: FONT, fontWeight: 800, fontSize: 40, color: "#8fa0b5", marginTop: 26 }}>
+        Excel 迷你图 · 三步搞定
+      </div>
+    </div>
+    <div
+      style={{
+        position: "absolute",
+        left: 110,
+        right: 110,
+        top: 760,
+        height: 480,
+        background: "#fff",
+        borderRadius: 26,
+        boxShadow: "0 40px 100px rgba(0,0,0,.6)",
+        padding: 30,
+        boxSizing: "border-box",
+      }}
+    >
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+        <div style={{ fontFamily: FONT, fontSize: 28, fontWeight: 800, color: "#2b3440" }}>趋势</div>
+        <div style={{ fontFamily: FONT, fontSize: 22, fontWeight: 700, color: "#9aa7b6" }}>I2</div>
+      </div>
+      <div style={{ marginTop: 22 }}>
+        <Spark w={760} h={340} />
+      </div>
+    </div>
+    <div
+      style={{
+        position: "absolute",
+        left: 0,
+        right: 0,
+        bottom: 210,
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      <div
+        style={{
+          background: "#3DDC84",
+          color: "#08251a",
+          fontFamily: FONT,
+          fontWeight: 900,
+          fontSize: 46,
+          padding: "20px 34px",
+          borderRadius: 16,
+        }}
+      >
+        周末客流 ≈ 工作日 1.8 倍
+      </div>
+    </div>
+    <div
+      style={{
+        position: "absolute",
+        left: 0,
+        right: 0,
+        bottom: 120,
+        textAlign: "center",
+        fontFamily: FONT,
+        fontSize: 28,
+        fontWeight: 700,
+        color: "#7d8ca0",
+      }}
+    >
+      30 秒 · 纯录屏
+    </div>
+  </AbsoluteFill>
+);
+
+const Root: React.FC = () => (
+  <>
+    <Composition id="CoverW" component={Landscape} durationInFrames={1} fps={30} width={1600} height={1200} />
+    <Composition id="CoverH" component={Portrait} durationInFrames={1} fps={30} width={1200} height={1600} />
+  </>
+);
+
+registerRoot(Root);

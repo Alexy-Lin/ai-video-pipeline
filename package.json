@@ -1,0 +1,27 @@
+{
+  "name": "fc27-editor-intro-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated intro video for the FC27 Editor project, built with Remotion",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "capture": "node scripts/capture.mjs",
+    "render": "remotion render src/index.ts FC27Intro out/fc27-intro.mp4",
+    "render-gif": "remotion render src/index.ts FC27Intro out/fc27-intro.gif --codec=gif --every-nth-frame=2",
+    "still": "remotion still src/index.ts FC27Intro out/cover.png --frame=20",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/transitions": "4.0.538",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "playwright-core": "1.49.1",
+    "typescript": "5.7.2"
+  }
+}

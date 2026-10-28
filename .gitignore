@@ -1,0 +1,34 @@
+# ---- 依赖与 Python 虚拟环境（可重建）----
+node_modules/
+.venv/
+
+# ---- 模型权重与缓存（约 20GB，按 README「环境说明」重新下载）----
+models/
+checkpoints/
+ref/whisper/
+
+# ---- 第三方克隆（CosyVoice 自带 .git，单独维护）----
+third_party/
+
+# ---- 录屏素材与渲染产物（约 370MB，由 scripts/capture-frames.mjs 重录）----
+public/
+out/
+
+# ---- excel-tips 子项目的素材与成片 ----
+excel-tips/assets/
+excel-tips/audio/
+excel-tips/b-1920/
+excel-tips/build/
+excel-tips/ref/
+
+# ---- 参考录音（个人声音样本）----
+ref/*.wav
+
+# ---- 工具与环境产物 ----
+.chrome-profile/
+__pycache__/
+*.pyc
+@AutomationLog.txt
+.DS_Store
+Thumbs.db
+*.log

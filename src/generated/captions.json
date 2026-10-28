@@ -1,0 +1,1182 @@
+{
+  "model": "large-v3",
+  "modelPath": "D:\\Software\\AI Video\\models\\whisper-large-v3",
+  "device": "cuda",
+  "language": "zh",
+  "lines": {
+    "intro": {
+      "durationSeconds": 4.259,
+      "text": "大家好，今天给大家分享的是FC27存档的编辑器。",
+      "words": [
+        {
+          "text": "大家好，",
+          "startMs": 520,
+          "endMs": 900
+        },
+        {
+          "text": "今天",
+          "startMs": 1080,
+          "endMs": 1280
+        },
+        {
+          "text": "给",
+          "startMs": 1280,
+          "endMs": 1460
+        },
+        {
+          "text": "大家",
+          "startMs": 1460,
+          "endMs": 1600
+        },
+        {
+          "text": "分享",
+          "startMs": 1600,
+          "endMs": 1820
+        },
+        {
+          "text": "的是",
+          "startMs": 1820,
+          "endMs": 2040
+        },
+        {
+          "text": "FC",
+          "startMs": 2040,
+          "endMs": 2540
+        },
+        {
+          "text": "27",
+          "startMs": 2540,
+          "endMs": 2900
+        },
+        {
+          "text": "存",
+          "startMs": 2900,
+          "endMs": 3240
+        },
+        {
+          "text": "档",
+          "startMs": 3240,
+          "endMs": 3420
+        },
+        {
+          "text": "的",
+          "startMs": 3420,
+          "endMs": 3480
+        },
+        {
+          "text": "编",
+          "startMs": 3480,
+          "endMs": 3640
+        },
+        {
+          "text": "辑",
+          "startMs": 3640,
+          "endMs": 3720
+        },
+        {
+          "text": "器。",
+          "startMs": 3720,
+          "endMs": 3960
+        }
+      ]
+    },
+    "problem": {
+      "durationSeconds": 6.586,
+      "text": "球员能力，阵容号码，国家队名单，俱乐部转会都可以实现修改。",
+      "words": [
+        {
+          "text": "球",
+          "startMs": 780,
+          "endMs": 1100
+        },
+        {
+          "text": "员",
+          "startMs": 1100,
+          "endMs": 1220
+        },
+        {
+          "text": "能",
+          "startMs": 1220,
+          "endMs": 1320
+        },
+        {
+          "text": "力，",
+          "startMs": 1320,
+          "endMs": 1540
+        },
+        {
+          "text": "阵",
+          "startMs": 2240,
+          "endMs": 2400
+        },
+        {
+          "text": "容",
+          "startMs": 2400,
+          "endMs": 2460
+        },
+        {
+          "text": "号",
+          "startMs": 2460,
+          "endMs": 2580
+        },
+        {
+          "text": "码，",
+          "startMs": 2580,
+          "endMs": 2820
+        },
+        {
+          "text": "国",
+          "startMs": 3000,
+          "endMs": 3080
+        },
+        {
+          "text": "家",
+          "startMs": 3080,
+          "endMs": 3220
+        },
+        {
+          "text": "队",
+          "startMs": 3220,
+          "endMs": 3340
+        },
+        {
+          "text": "名",
+          "startMs": 3340,
+          "endMs": 3440
+        },
+        {
+          "text": "单，",
+          "startMs": 3440,
+          "endMs": 3700
+        },
+        {
+          "text": "俱",
+          "startMs": 3920,
+          "endMs": 4040
+        },
+        {
+          "text": "乐",
+          "startMs": 4040,
+          "endMs": 4100
+        },
+        {
+          "text": "部",
+          "startMs": 4100,
+          "endMs": 4180
+        },
+        {
+          "text": "转",
+          "startMs": 4180,
+          "endMs": 4380
+        },
+        {
+          "text": "会",
+          "startMs": 4380,
+          "endMs": 4560
+        },
+        {
+          "text": "都",
+          "startMs": 4560,
+          "endMs": 4960
+        },
+        {
+          "text": "可以",
+          "startMs": 4960,
+          "endMs": 5160
+        },
+        {
+          "text": "实",
+          "startMs": 5160,
+          "endMs": 5320
+        },
+        {
+          "text": "现",
+          "startMs": 5320,
+          "endMs": 5500
+        },
+        {
+          "text": "修",
+          "startMs": 5500,
+          "endMs": 5740
+        },
+        {
+          "text": "改。",
+          "startMs": 5740,
+          "endMs": 5880
+        }
+      ]
+    },
+    "player": {
+      "durationSeconds": 7.339,
+      "text": "输入球员名字搜索，点开的就是完整资料，能力值和各项属性都可以改。",
+      "words": [
+        {
+          "text": "输",
+          "startMs": 1280,
+          "endMs": 1600
+        },
+        {
+          "text": "入",
+          "startMs": 1600,
+          "endMs": 1720
+        },
+        {
+          "text": "球",
+          "startMs": 1720,
+          "endMs": 1860
+        },
+        {
+          "text": "员",
+          "startMs": 1860,
+          "endMs": 1980
+        },
+        {
+          "text": "名",
+          "startMs": 1980,
+          "endMs": 2080
+        },
+        {
+          "text": "字",
+          "startMs": 2080,
+          "endMs": 2220
+        },
+        {
+          "text": "搜",
+          "startMs": 2220,
+          "endMs": 2380
+        },
+        {
+          "text": "索，",
+          "startMs": 2380,
+          "endMs": 2560
+        },
+        {
+          "text": "点",
+          "startMs": 2660,
+          "endMs": 2980
+        },
+        {
+          "text": "开",
+          "startMs": 2980,
+          "endMs": 3180
+        },
+        {
+          "text": "的",
+          "startMs": 3180,
+          "endMs": 3260
+        },
+        {
+          "text": "就是",
+          "startMs": 3260,
+          "endMs": 3440
+        },
+        {
+          "text": "完",
+          "startMs": 3440,
+          "endMs": 3840
+        },
+        {
+          "text": "整",
+          "startMs": 3840,
+          "endMs": 4020
+        },
+        {
+          "text": "资",
+          "startMs": 4020,
+          "endMs": 4200
+        },
+        {
+          "text": "料，",
+          "startMs": 4200,
+          "endMs": 4340
+        },
+        {
+          "text": "能",
+          "startMs": 4440,
+          "endMs": 5140
+        },
+        {
+          "text": "力",
+          "startMs": 5140,
+          "endMs": 5320
+        },
+        {
+          "text": "值",
+          "startMs": 5320,
+          "endMs": 5440
+        },
+        {
+          "text": "和",
+          "startMs": 5440,
+          "endMs": 5640
+        },
+        {
+          "text": "各",
+          "startMs": 5640,
+          "endMs": 5760
+        },
+        {
+          "text": "项",
+          "startMs": 5760,
+          "endMs": 5920
+        },
+        {
+          "text": "属",
+          "startMs": 5920,
+          "endMs": 6080
+        },
+        {
+          "text": "性",
+          "startMs": 6080,
+          "endMs": 6180
+        },
+        {
+          "text": "都",
+          "startMs": 6180,
+          "endMs": 6300
+        },
+        {
+          "text": "可以",
+          "startMs": 6300,
+          "endMs": 6500
+        },
+        {
+          "text": "改。",
+          "startMs": 6500,
+          "endMs": 6700
+        }
+      ]
+    },
+    "teams": {
+      "durationSeconds": 6.104,
+      "text": "进入球队页面，可以看到阵容，并且可以批量修改球衣号码。",
+      "words": [
+        {
+          "text": "进",
+          "startMs": 1600,
+          "endMs": 1860
+        },
+        {
+          "text": "入",
+          "startMs": 1860,
+          "endMs": 1980
+        },
+        {
+          "text": "球",
+          "startMs": 1980,
+          "endMs": 2120
+        },
+        {
+          "text": "队",
+          "startMs": 2120,
+          "endMs": 2240
+        },
+        {
+          "text": "页",
+          "startMs": 2240,
+          "endMs": 2360
+        },
+        {
+          "text": "面，",
+          "startMs": 2360,
+          "endMs": 2480
+        },
+        {
+          "text": "可以",
+          "startMs": 2520,
+          "endMs": 2760
+        },
+        {
+          "text": "看到",
+          "startMs": 2760,
+          "endMs": 2980
+        },
+        {
+          "text": "阵",
+          "startMs": 2980,
+          "endMs": 3220
+        },
+        {
+          "text": "容，",
+          "startMs": 3220,
+          "endMs": 3380
+        },
+        {
+          "text": "并",
+          "startMs": 3500,
+          "endMs": 3820
+        },
+        {
+          "text": "且",
+          "startMs": 3820,
+          "endMs": 3920
+        },
+        {
+          "text": "可以",
+          "startMs": 3920,
+          "endMs": 4080
+        },
+        {
+          "text": "批",
+          "startMs": 4080,
+          "endMs": 4500
+        },
+        {
+          "text": "量",
+          "startMs": 4500,
+          "endMs": 4600
+        },
+        {
+          "text": "修",
+          "startMs": 4600,
+          "endMs": 4840
+        },
+        {
+          "text": "改",
+          "startMs": 4840,
+          "endMs": 4940
+        },
+        {
+          "text": "球",
+          "startMs": 4940,
+          "endMs": 5100
+        },
+        {
+          "text": "衣",
+          "startMs": 5100,
+          "endMs": 5200
+        },
+        {
+          "text": "号",
+          "startMs": 5200,
+          "endMs": 5320
+        },
+        {
+          "text": "码。",
+          "startMs": 5320,
+          "endMs": 5500
+        }
+      ]
+    },
+    "transfers": {
+      "durationSeconds": 6.229,
+      "text": "转会页面只要选两支球队，点一下就可以把球员转会过去。",
+      "words": [
+        {
+          "text": "转",
+          "startMs": 1420,
+          "endMs": 1740
+        },
+        {
+          "text": "会",
+          "startMs": 1740,
+          "endMs": 1820
+        },
+        {
+          "text": "页",
+          "startMs": 1820,
+          "endMs": 1980
+        },
+        {
+          "text": "面",
+          "startMs": 1980,
+          "endMs": 2100
+        },
+        {
+          "text": "只",
+          "startMs": 2100,
+          "endMs": 2260
+        },
+        {
+          "text": "要",
+          "startMs": 2260,
+          "endMs": 2360
+        },
+        {
+          "text": "选",
+          "startMs": 2360,
+          "endMs": 2540
+        },
+        {
+          "text": "两",
+          "startMs": 2540,
+          "endMs": 2700
+        },
+        {
+          "text": "支",
+          "startMs": 2700,
+          "endMs": 2800
+        },
+        {
+          "text": "球",
+          "startMs": 2800,
+          "endMs": 2940
+        },
+        {
+          "text": "队，",
+          "startMs": 2940,
+          "endMs": 3100
+        },
+        {
+          "text": "点",
+          "startMs": 3180,
+          "endMs": 3440
+        },
+        {
+          "text": "一下",
+          "startMs": 3440,
+          "endMs": 3640
+        },
+        {
+          "text": "就可以",
+          "startMs": 3640,
+          "endMs": 4020
+        },
+        {
+          "text": "把",
+          "startMs": 4020,
+          "endMs": 4280
+        },
+        {
+          "text": "球",
+          "startMs": 4280,
+          "endMs": 4460
+        },
+        {
+          "text": "员",
+          "startMs": 4460,
+          "endMs": 4560
+        },
+        {
+          "text": "转",
+          "startMs": 4560,
+          "endMs": 4720
+        },
+        {
+          "text": "会",
+          "startMs": 4720,
+          "endMs": 4780
+        },
+        {
+          "text": "过",
+          "startMs": 4780,
+          "endMs": 4900
+        },
+        {
+          "text": "去。",
+          "startMs": 4900,
+          "endMs": 5140
+        }
+      ]
+    },
+    "national": {
+      "durationSeconds": 8.192,
+      "text": "国家队选拔和游戏里界面类似，当然更加方便，而且还可以进行号码的分配。",
+      "words": [
+        {
+          "text": "国",
+          "startMs": 1240,
+          "endMs": 1520
+        },
+        {
+          "text": "家",
+          "startMs": 1520,
+          "endMs": 1600
+        },
+        {
+          "text": "队",
+          "startMs": 1600,
+          "endMs": 1720
+        },
+        {
+          "text": "选",
+          "startMs": 1720,
+          "endMs": 1860
+        },
+        {
+          "text": "拔",
+          "startMs": 1860,
+          "endMs": 2040
+        },
+        {
+          "text": "和",
+          "startMs": 2040,
+          "endMs": 2260
+        },
+        {
+          "text": "游",
+          "startMs": 2260,
+          "endMs": 2420
+        },
+        {
+          "text": "戏",
+          "startMs": 2420,
+          "endMs": 2520
+        },
+        {
+          "text": "里",
+          "startMs": 2520,
+          "endMs": 2680
+        },
+        {
+          "text": "界",
+          "startMs": 2680,
+          "endMs": 2800
+        },
+        {
+          "text": "面",
+          "startMs": 2800,
+          "endMs": 3000
+        },
+        {
+          "text": "类",
+          "startMs": 3000,
+          "endMs": 3420
+        },
+        {
+          "text": "似，",
+          "startMs": 3420,
+          "endMs": 3600
+        },
+        {
+          "text": "当然",
+          "startMs": 3680,
+          "endMs": 4240
+        },
+        {
+          "text": "更",
+          "startMs": 4240,
+          "endMs": 4360
+        },
+        {
+          "text": "加",
+          "startMs": 4360,
+          "endMs": 4500
+        },
+        {
+          "text": "方",
+          "startMs": 4500,
+          "endMs": 4620
+        },
+        {
+          "text": "便，",
+          "startMs": 4620,
+          "endMs": 4860
+        },
+        {
+          "text": "而且",
+          "startMs": 4940,
+          "endMs": 6020
+        },
+        {
+          "text": "还",
+          "startMs": 6020,
+          "endMs": 6140
+        },
+        {
+          "text": "可以",
+          "startMs": 6140,
+          "endMs": 6340
+        },
+        {
+          "text": "进",
+          "startMs": 6340,
+          "endMs": 6560
+        },
+        {
+          "text": "行",
+          "startMs": 6560,
+          "endMs": 6720
+        },
+        {
+          "text": "号",
+          "startMs": 6720,
+          "endMs": 6840
+        },
+        {
+          "text": "码",
+          "startMs": 6840,
+          "endMs": 6980
+        },
+        {
+          "text": "的",
+          "startMs": 6980,
+          "endMs": 7120
+        },
+        {
+          "text": "分",
+          "startMs": 7120,
+          "endMs": 7200
+        },
+        {
+          "text": "配。",
+          "startMs": 7200,
+          "endMs": 7400
+        }
+      ]
+    },
+    "quick": {
+      "durationSeconds": 8.875,
+      "text": "快捷功能这里可以批量调年龄和恢复老将的巅峰值，并且补齐传奇球员。",
+      "words": [
+        {
+          "text": "快",
+          "startMs": 1720,
+          "endMs": 2040
+        },
+        {
+          "text": "捷",
+          "startMs": 2040,
+          "endMs": 2160
+        },
+        {
+          "text": "功",
+          "startMs": 2160,
+          "endMs": 2220
+        },
+        {
+          "text": "能",
+          "startMs": 2220,
+          "endMs": 2360
+        },
+        {
+          "text": "这里",
+          "startMs": 2360,
+          "endMs": 2520
+        },
+        {
+          "text": "可以",
+          "startMs": 2520,
+          "endMs": 2780
+        },
+        {
+          "text": "批",
+          "startMs": 2780,
+          "endMs": 3040
+        },
+        {
+          "text": "量",
+          "startMs": 3040,
+          "endMs": 3140
+        },
+        {
+          "text": "调",
+          "startMs": 3140,
+          "endMs": 3320
+        },
+        {
+          "text": "年",
+          "startMs": 3320,
+          "endMs": 3540
+        },
+        {
+          "text": "龄",
+          "startMs": 3540,
+          "endMs": 3860
+        },
+        {
+          "text": "和",
+          "startMs": 3860,
+          "endMs": 4280
+        },
+        {
+          "text": "恢",
+          "startMs": 4280,
+          "endMs": 4540
+        },
+        {
+          "text": "复",
+          "startMs": 4540,
+          "endMs": 4700
+        },
+        {
+          "text": "老",
+          "startMs": 4700,
+          "endMs": 5140
+        },
+        {
+          "text": "将",
+          "startMs": 5140,
+          "endMs": 5320
+        },
+        {
+          "text": "的",
+          "startMs": 5320,
+          "endMs": 5460
+        },
+        {
+          "text": "巅",
+          "startMs": 5460,
+          "endMs": 5560
+        },
+        {
+          "text": "峰",
+          "startMs": 5560,
+          "endMs": 5740
+        },
+        {
+          "text": "值，",
+          "startMs": 5740,
+          "endMs": 5940
+        },
+        {
+          "text": "并",
+          "startMs": 6060,
+          "endMs": 6640
+        },
+        {
+          "text": "且",
+          "startMs": 6640,
+          "endMs": 6780
+        },
+        {
+          "text": "补",
+          "startMs": 6780,
+          "endMs": 6920
+        },
+        {
+          "text": "齐",
+          "startMs": 6920,
+          "endMs": 7060
+        },
+        {
+          "text": "传",
+          "startMs": 7060,
+          "endMs": 7260
+        },
+        {
+          "text": "奇",
+          "startMs": 7260,
+          "endMs": 7320
+        },
+        {
+          "text": "球",
+          "startMs": 7320,
+          "endMs": 7480
+        },
+        {
+          "text": "员。",
+          "startMs": 7480,
+          "endMs": 7620
+        }
+      ]
+    },
+    "safety": {
+      "durationSeconds": 8.619,
+      "text": "所有的修改会先暂存，确认之后会另存为一个新的存档文件，这样原存档就不会被覆盖。",
+      "words": [
+        {
+          "text": "所有",
+          "startMs": 1440,
+          "endMs": 1680
+        },
+        {
+          "text": "的",
+          "startMs": 1680,
+          "endMs": 1800
+        },
+        {
+          "text": "修",
+          "startMs": 1800,
+          "endMs": 1920
+        },
+        {
+          "text": "改",
+          "startMs": 1920,
+          "endMs": 2020
+        },
+        {
+          "text": "会",
+          "startMs": 2020,
+          "endMs": 2140
+        },
+        {
+          "text": "先",
+          "startMs": 2140,
+          "endMs": 2280
+        },
+        {
+          "text": "暂",
+          "startMs": 2280,
+          "endMs": 2480
+        },
+        {
+          "text": "存，",
+          "startMs": 2480,
+          "endMs": 2600
+        },
+        {
+          "text": "确",
+          "startMs": 2720,
+          "endMs": 3420
+        },
+        {
+          "text": "认",
+          "startMs": 3420,
+          "endMs": 3500
+        },
+        {
+          "text": "之",
+          "startMs": 3500,
+          "endMs": 3600
+        },
+        {
+          "text": "后",
+          "startMs": 3600,
+          "endMs": 3780
+        },
+        {
+          "text": "会",
+          "startMs": 3780,
+          "endMs": 3940
+        },
+        {
+          "text": "另",
+          "startMs": 3940,
+          "endMs": 4040
+        },
+        {
+          "text": "存",
+          "startMs": 4040,
+          "endMs": 4160
+        },
+        {
+          "text": "为",
+          "startMs": 4160,
+          "endMs": 4300
+        },
+        {
+          "text": "一个",
+          "startMs": 4300,
+          "endMs": 4400
+        },
+        {
+          "text": "新",
+          "startMs": 4400,
+          "endMs": 4520
+        },
+        {
+          "text": "的",
+          "startMs": 4520,
+          "endMs": 4660
+        },
+        {
+          "text": "存",
+          "startMs": 4660,
+          "endMs": 4760
+        },
+        {
+          "text": "档",
+          "startMs": 4760,
+          "endMs": 4880
+        },
+        {
+          "text": "文",
+          "startMs": 4880,
+          "endMs": 5000
+        },
+        {
+          "text": "件，",
+          "startMs": 5000,
+          "endMs": 5180
+        },
+        {
+          "text": "这样",
+          "startMs": 5260,
+          "endMs": 6160
+        },
+        {
+          "text": "原",
+          "startMs": 6160,
+          "endMs": 6300
+        },
+        {
+          "text": "存",
+          "startMs": 6300,
+          "endMs": 6460
+        },
+        {
+          "text": "档",
+          "startMs": 6460,
+          "endMs": 6620
+        },
+        {
+          "text": "就",
+          "startMs": 6620,
+          "endMs": 6700
+        },
+        {
+          "text": "不会",
+          "startMs": 6700,
+          "endMs": 6860
+        },
+        {
+          "text": "被",
+          "startMs": 6860,
+          "endMs": 7060
+        },
+        {
+          "text": "覆",
+          "startMs": 7060,
+          "endMs": 7280
+        },
+        {
+          "text": "盖。",
+          "startMs": 7280,
+          "endMs": 7380
+        }
+      ]
+    },
+    "outro": {
+      "durationSeconds": 7.3,
+      "text": "这个编辑器是完全本地运行的，但不会联网，并且完全免费开源。欢迎大家下载，谢谢大家。",
+      "words": [
+        {
+          "text": "这个",
+          "startMs": 340,
+          "endMs": 660
+        },
+        {
+          "text": "编",
+          "startMs": 660,
+          "endMs": 800
+        },
+        {
+          "text": "辑",
+          "startMs": 800,
+          "endMs": 900
+        },
+        {
+          "text": "器",
+          "startMs": 900,
+          "endMs": 1000
+        },
+        {
+          "text": "是",
+          "startMs": 1000,
+          "endMs": 1120
+        },
+        {
+          "text": "完全",
+          "startMs": 1120,
+          "endMs": 1340
+        },
+        {
+          "text": "本",
+          "startMs": 1340,
+          "endMs": 1520
+        },
+        {
+          "text": "地",
+          "startMs": 1520,
+          "endMs": 1600
+        },
+        {
+          "text": "运",
+          "startMs": 1600,
+          "endMs": 1780
+        },
+        {
+          "text": "行",
+          "startMs": 1780,
+          "endMs": 1980
+        },
+        {
+          "text": "的，",
+          "startMs": 1980,
+          "endMs": 2140
+        },
+        {
+          "text": "但",
+          "startMs": 2180,
+          "endMs": 2400
+        },
+        {
+          "text": "不会",
+          "startMs": 2400,
+          "endMs": 2580
+        },
+        {
+          "text": "联",
+          "startMs": 2580,
+          "endMs": 2840
+        },
+        {
+          "text": "网，",
+          "startMs": 2840,
+          "endMs": 3000
+        },
+        {
+          "text": "并",
+          "startMs": 3040,
+          "endMs": 3460
+        },
+        {
+          "text": "且",
+          "startMs": 3460,
+          "endMs": 3560
+        },
+        {
+          "text": "完全",
+          "startMs": 3560,
+          "endMs": 3720
+        },
+        {
+          "text": "免",
+          "startMs": 3720,
+          "endMs": 3960
+        },
+        {
+          "text": "费",
+          "startMs": 3960,
+          "endMs": 4120
+        },
+        {
+          "text": "开",
+          "startMs": 4120,
+          "endMs": 4260
+        },
+        {
+          "text": "源。",
+          "startMs": 4260,
+          "endMs": 4400
+        },
+        {
+          "text": "欢",
+          "startMs": 5440,
+          "endMs": 5760
+        },
+        {
+          "text": "迎",
+          "startMs": 5760,
+          "endMs": 5900
+        },
+        {
+          "text": "大家",
+          "startMs": 5900,
+          "endMs": 6020
+        },
+        {
+          "text": "下",
+          "startMs": 6020,
+          "endMs": 6180
+        },
+        {
+          "text": "载，",
+          "startMs": 6180,
+          "endMs": 6380
+        },
+        {
+          "text": "谢谢",
+          "startMs": 6420,
+          "endMs": 6620
+        },
+        {
+          "text": "大家。",
+          "startMs": 6620,
+          "endMs": 6860
+        }
+      ]
+    }
+  }
+}
