@@ -1,0 +1,442 @@
+[
+ {
+  "t": "",
+  "text": "If your profession is in finance or you're\nplanning to work as a financial analyst,"
+ },
+ {
+  "t": "",
+  "text": "then creating forecasts and budgets is a constant\nexercise. Now, usually, this involves some form of"
+ },
+ {
+  "t": "",
+  "text": "predicting a future value based on existing\nhistorical values. So, it could be sales,"
+ },
+ {
+  "t": "",
+  "text": "manufacturing quantities, or other KPIs and\ntrends. In today's video, I'm going to show you a"
+ },
+ {
+  "t": "",
+  "text": "great feature in Excel that can help you create\nthese forecasts with just a few clicks. I'll"
+ },
+ {
+  "t": "",
+  "text": "be calculating a quick sales forecast for Home\nDepot. Sound good? Then let's get doing."
+ },
+ {
+  "t": "",
+  "text": "Here's my data set. It's Home Depot's quarterly\nsales from 2012 to 2021. They have a fiscal year"
+ },
+ {
+  "t": "",
+  "text": "that ends on January 31st. I added the quarter\nnumbers in column A just to make it easier for"
+ },
+ {
+  "t": "",
+  "text": "us. Now, our task is to create a sales forecast\nfor the upcoming quarters. When you get a data set"
+ },
+ {
+  "t": "",
+  "text": "like this, it's a good idea to quickly plot this\non a line chart just to get a better overview. So,"
+ },
+ {
+  "t": "",
+  "text": "let's highlight the date and the sales values,\ngo to Insert and insert a line chart. Notice"
+ },
+ {
+  "t": "",
+  "text": "that there are lots of peaks and valleys, so\nthere's definitely some seasonality involved."
+ },
+ {
+  "t": "",
+  "text": "We can't really use some linear trend to predict\nthe next quarters. We need a solution that takes"
+ },
+ {
+  "t": "",
+  "text": "the cyclicality of the historical data into\nconsideration. So, this is where the Forecast"
+ },
+ {
+  "t": "",
+  "text": "Sheet in Excel comes into play. It's available\nfrom Excel 2016 onwards and this is how it works."
+ },
+ {
+  "t": "",
+  "text": "First, highlight the historical values\nagain, so I'm going to highlight the date"
+ },
+ {
+  "t": "",
+  "text": "and the sales columns. Then, go to Data, here on\nthe Forecast section, click on Forecast Sheet."
+ },
+ {
+  "t": "",
+  "text": "This plots our data on a line chart.\nNow, the blue line is our actual data"
+ },
+ {
+  "t": "",
+  "text": "and the orange lines here are the predictions. The\nmiddle one is the forecast and the thinner orange"
+ },
+ {
+  "t": "",
+  "text": "lines are the lower and the upper confidence\nbounds. So, if your confidence interval is 95%,"
+ },
+ {
+  "t": "",
+  "text": "then 95% of the future data points are going to\nfall between these two lines. With Forecast End,"
+ },
+ {
+  "t": "",
+  "text": "you can select a different end date for your\nforecast. You can just expand the options"
+ },
+ {
+  "t": "",
+  "text": "and adjust your selection. In the more options\nhere, we get to decide when the forecast starts."
+ },
+ {
+  "t": "",
+  "text": "Now, I'm going to pick a date that's before\nthe last actual data point. This way, I get a"
+ },
+ {
+  "t": "",
+  "text": "better idea of the forecasting accuracy because\nI can compare the forecast with the actual. So,"
+ },
+ {
+  "t": "",
+  "text": "I'm going to change this to January 31st, 2021.\nThe confidence interval indicates the range that's"
+ },
+ {
+  "t": "",
+  "text": "likely to contain your estimates. So, the default\nvalue is 95% and I'm just going to go with that."
+ },
+ {
+  "t": "",
+  "text": "For seasonality, you have a choice to let Excel\ndetect it automatically or enter it yourself. So,"
+ },
+ {
+  "t": "",
+  "text": "by looking at the forecast in the chart, I can\nalready see that it did pick up the seasonality"
+ },
+ {
+  "t": "",
+  "text": "in the data. So, we're going to leave it\non automatic. If the algorithm wasn't able"
+ },
+ {
+  "t": "",
+  "text": "to establish a pattern, you're going to need to\nenter it manually. So, for instance, in my case,"
+ },
+ {
+  "t": "",
+  "text": "I would set it to four because for my data here\none season consists of four quarters. But in this"
+ },
+ {
+  "t": "",
+  "text": "case, it works. I'm going to go back to detect\nautomatically. Timeline and the values range is already"
+ },
+ {
+  "t": "",
+  "text": "picked up because I highlighted that range before\nI opened the Forecast Sheet. In case you need to"
+ },
+ {
+  "t": "",
+  "text": "make adjustments, you can do it manually here. I'm\nalso going to leave Interpolation and Average as"
+ },
+ {
+  "t": "",
+  "text": "the default values. Now let's take a look at what\nhappens when I click on Create. I'm going to get a"
+ },
+ {
+  "t": "",
+  "text": "new sheet inserted here with my historical values\nand my forecast values on the bottom. I also"
+ },
+ {
+  "t": "",
+  "text": "get the chart that we saw before. So, if I zoom\nout, we can see that the chart is inserted here,"
+ },
+ {
+  "t": "",
+  "text": "and it's referencing the series on this table. So,\nif you want, you can make adjustments to this data"
+ },
+ {
+  "t": "",
+  "text": "and it's going to automatically adjust your chart.\nNow, let's scroll down and see the forecast values"
+ },
+ {
+  "t": "",
+  "text": "that we got. When we take a look at the values\nfor the last two quarters, for which we actually"
+ },
+ {
+  "t": "",
+  "text": "had data for, we can see that the forecast came in\ntoo low. So, if I just move this out of the way,"
+ },
+ {
+  "t": "",
+  "text": "here's the lower bound, and this is the upper\nbound. So now, if I was going to predict the"
+ },
+ {
+  "t": "",
+  "text": "next two quarters, I'm probably going to consider\na sales value that's between the forecast value"
+ },
+ {
+  "t": "",
+  "text": "and the upper confidence bound. Now, when I click\nin the cell for forecast, we can see that Excel"
+ },
+ {
+  "t": "",
+  "text": "has automatically created these formulas with the\nFORECAST.ETS function. So, this function is used"
+ },
+ {
+  "t": "",
+  "text": "to predict future values by using an Exponential\nTriple Smoothing algorithm. So, without knowing"
+ },
+ {
+  "t": "",
+  "text": "much about statistics or function syntax, we\nwere able to create the seasonal forecast."
+ },
+ {
+  "t": "",
+  "text": "So, as you can see, it's quite easy to create\nforecasts based on seasonal historical data."
+ },
+ {
+  "t": "",
+  "text": "All you need is a timeline with data points that\nhave consistent steps between them, and this can be"
+ },
+ {
+  "t": "",
+  "text": "months, it can be quarters, or years. And the\ndata doesn't have to be perfect. The function"
+ },
+ {
+  "t": "",
+  "text": "can handle up to 30% of missing data, and it's\ngoing to automatically make adjustments for it."
+ },
+ {
+  "t": "",
+  "text": "I hope this is going to be helpful for you\nwhen you have to do your next forecast."
+ },
+ {
+  "t": "",
+  "text": "Please give this video a thumbs up\nif you liked it, and do subscribe"
+ },
+ {
+  "t": "",
+  "text": "if you haven't already done so. Many thanks for\nwatching and I'm going to see you in the next video."
+ },
+ {
+  "t": "",
+  "text": "If your profession is in finance or you're\nplanning to work as a financial analyst,"
+ },
+ {
+  "t": "",
+  "text": "then creating forecasts and budgets is a constant\nexercise. Now, usually, this involves some form of"
+ },
+ {
+  "t": "",
+  "text": "predicting a future value based on existing\nhistorical values. So, it could be sales,"
+ },
+ {
+  "t": "",
+  "text": "manufacturing quantities, or other KPIs and\ntrends. In today's video, I'm going to show you a"
+ },
+ {
+  "t": "",
+  "text": "great feature in Excel that can help you create\nthese forecasts with just a few clicks. I'll"
+ },
+ {
+  "t": "",
+  "text": "be calculating a quick sales forecast for Home\nDepot. Sound good? Then let's get doing."
+ },
+ {
+  "t": "",
+  "text": "Here's my data set. It's Home Depot's quarterly\nsales from 2012 to 2021. They have a fiscal year"
+ },
+ {
+  "t": "",
+  "text": "that ends on January 31st. I added the quarter\nnumbers in column A just to make it easier for"
+ },
+ {
+  "t": "",
+  "text": "us. Now, our task is to create a sales forecast\nfor the upcoming quarters. When you get a data set"
+ },
+ {
+  "t": "",
+  "text": "like this, it's a good idea to quickly plot this\non a line chart just to get a better overview. So,"
+ },
+ {
+  "t": "",
+  "text": "let's highlight the date and the sales values,\ngo to Insert and insert a line chart. Notice"
+ },
+ {
+  "t": "",
+  "text": "that there are lots of peaks and valleys, so\nthere's definitely some seasonality involved."
+ },
+ {
+  "t": "",
+  "text": "We can't really use some linear trend to predict\nthe next quarters. We need a solution that takes"
+ },
+ {
+  "t": "",
+  "text": "the cyclicality of the historical data into\nconsideration. So, this is where the Forecast"
+ },
+ {
+  "t": "",
+  "text": "Sheet in Excel comes into play. It's available\nfrom Excel 2016 onwards and this is how it works."
+ },
+ {
+  "t": "",
+  "text": "First, highlight the historical values\nagain, so I'm going to highlight the date"
+ },
+ {
+  "t": "",
+  "text": "and the sales columns. Then, go to Data, here on\nthe Forecast section, click on Forecast Sheet."
+ },
+ {
+  "t": "",
+  "text": "This plots our data on a line chart.\nNow, the blue line is our actual data"
+ },
+ {
+  "t": "",
+  "text": "and the orange lines here are the predictions. The\nmiddle one is the forecast and the thinner orange"
+ },
+ {
+  "t": "",
+  "text": "lines are the lower and the upper confidence\nbounds. So, if your confidence interval is 95%,"
+ },
+ {
+  "t": "",
+  "text": "then 95% of the future data points are going to\nfall between these two lines. With Forecast End,"
+ },
+ {
+  "t": "",
+  "text": "you can select a different end date for your\nforecast. You can just expand the options"
+ },
+ {
+  "t": "",
+  "text": "and adjust your selection. In the more options\nhere, we get to decide when the forecast starts."
+ },
+ {
+  "t": "",
+  "text": "Now, I'm going to pick a date that's before\nthe last actual data point. This way, I get a"
+ },
+ {
+  "t": "",
+  "text": "better idea of the forecasting accuracy because\nI can compare the forecast with the actual. So,"
+ },
+ {
+  "t": "",
+  "text": "I'm going to change this to January 31st, 2021.\nThe confidence interval indicates the range that's"
+ },
+ {
+  "t": "",
+  "text": "likely to contain your estimates. So, the default\nvalue is 95% and I'm just going to go with that."
+ },
+ {
+  "t": "",
+  "text": "For seasonality, you have a choice to let Excel\ndetect it automatically or enter it yourself. So,"
+ },
+ {
+  "t": "",
+  "text": "by looking at the forecast in the chart, I can\nalready see that it did pick up the seasonality"
+ },
+ {
+  "t": "",
+  "text": "in the data. So, we're going to leave it\non automatic. If the algorithm wasn't able"
+ },
+ {
+  "t": "",
+  "text": "to establish a pattern, you're going to need to\nenter it manually. So, for instance, in my case,"
+ },
+ {
+  "t": "",
+  "text": "I would set it to four because for my data here\none season consists of four quarters. But in this"
+ },
+ {
+  "t": "",
+  "text": "case, it works. I'm going to go back to detect\nautomatically. Timeline and the values range is already"
+ },
+ {
+  "t": "",
+  "text": "picked up because I highlighted that range before\nI opened the Forecast Sheet. In case you need to"
+ },
+ {
+  "t": "",
+  "text": "make adjustments, you can do it manually here. I'm\nalso going to leave Interpolation and Average as"
+ },
+ {
+  "t": "",
+  "text": "the default values. Now let's take a look at what\nhappens when I click on Create. I'm going to get a"
+ },
+ {
+  "t": "",
+  "text": "new sheet inserted here with my historical values\nand my forecast values on the bottom. I also"
+ },
+ {
+  "t": "",
+  "text": "get the chart that we saw before. So, if I zoom\nout, we can see that the chart is inserted here,"
+ },
+ {
+  "t": "",
+  "text": "and it's referencing the series on this table. So,\nif you want, you can make adjustments to this data"
+ },
+ {
+  "t": "",
+  "text": "and it's going to automatically adjust your chart.\nNow, let's scroll down and see the forecast values"
+ },
+ {
+  "t": "",
+  "text": "that we got. When we take a look at the values\nfor the last two quarters, for which we actually"
+ },
+ {
+  "t": "",
+  "text": "had data for, we can see that the forecast came in\ntoo low. So, if I just move this out of the way,"
+ },
+ {
+  "t": "",
+  "text": "here's the lower bound, and this is the upper\nbound. So now, if I was going to predict the"
+ },
+ {
+  "t": "",
+  "text": "next two quarters, I'm probably going to consider\na sales value that's between the forecast value"
+ },
+ {
+  "t": "",
+  "text": "and the upper confidence bound. Now, when I click\nin the cell for forecast, we can see that Excel"
+ },
+ {
+  "t": "",
+  "text": "has automatically created these formulas with the\nFORECAST.ETS function. So, this function is used"
+ },
+ {
+  "t": "",
+  "text": "to predict future values by using an Exponential\nTriple Smoothing algorithm. So, without knowing"
+ },
+ {
+  "t": "",
+  "text": "much about statistics or function syntax, we\nwere able to create the seasonal forecast."
+ },
+ {
+  "t": "",
+  "text": "So, as you can see, it's quite easy to create\nforecasts based on seasonal historical data."
+ },
+ {
+  "t": "",
+  "text": "All you need is a timeline with data points that\nhave consistent steps between them, and this can be"
+ },
+ {
+  "t": "",
+  "text": "months, it can be quarters, or years. And the\ndata doesn't have to be perfect. The function"
+ },
+ {
+  "t": "",
+  "text": "can handle up to 30% of missing data, and it's\ngoing to automatically make adjustments for it."
+ },
+ {
+  "t": "",
+  "text": "I hope this is going to be helpful for you\nwhen you have to do your next forecast."
+ },
+ {
+  "t": "",
+  "text": "Please give this video a thumbs up\nif you liked it, and do subscribe"
+ },
+ {
+  "t": "",
+  "text": "if you haven't already done so. Many thanks for\nwatching and I'm going to see you in the next video."
+ }
+]

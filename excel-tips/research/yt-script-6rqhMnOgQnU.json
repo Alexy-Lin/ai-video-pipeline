@@ -1,0 +1,1922 @@
+{
+ "meta": {
+  "title": "Forecasting in Excel: MUST-KNOW for Any Analyst",
+  "views": "286579",
+  "length": "574",
+  "desc": "Learn how to forecast accurately in Excel with functions and visuals.\n🔥 Take our Finance & Valuation Course: https://www.careerprinciples.com/courses/finance-valuation-course\n\n🆓 DOWNLOAD Free Excel file for this video: https://careerprinciples.myflodesk.com/mxwq4rhvxw\n\nForecasting is one of the most important skills you can learn as an analyst. An accurate forecast can help you save money, boost productivity, and even increase customer satisfaction. So in this video I show you how to forecast in Excel. First, just a simple linear forecast with the function FORECAST.LINEAR. Then a forecast that also accounts for seasonality with FORECAST.ETS. To know how often these seasonal cycles are, we can use FORECAST.ETS.SEASONALITY. Then, to see confidence intervals, we can use FORECAST.ETS.CONFINT. This confidence interval can vary from 90%, 95%, or 99%. Those are the typical ranges. Finally, we'll put it all together with the forecast sheet, where we'll create a visual alongside the upper and lower forecast ranges.\n\nLEARN:\n🔥Power BI for Business Analytics: https://www.careerprinciples.com/courses/power-bi-for-business-analytics\n📈 The Complete Finance & Valuation Course: https://www.careerprinciples.com/courses/finance-valuation-course\n👉 Excel for Business & Finance Course: https://www.careerprinciples.com/courses/excel-for-business-finance\n🚀 All our courses: https://www.careerprinciples.com/all-courses\n\nSOCIALS:\n📸  Instagram - https://www.instagram.com/careerprinciples/?hl=en\n\ud83e"
+ },
+ "segments": [
+  {
+   "t": "",
+   "text": "if you work in any of these roles"
+  },
+  {
+   "t": "",
+   "text": "forecasting is one of the most important"
+  },
+  {
+   "t": "",
+   "text": "skills you can learn an accurate"
+  },
+  {
+   "t": "",
+   "text": "forecast can help you save money boost"
+  },
+  {
+   "t": "",
+   "text": "productivity and even increase customer"
+  },
+  {
+   "t": "",
+   "text": "satisfaction so let me show you all the"
+  },
+  {
+   "t": "",
+   "text": "steps you need to create precise"
+  },
+  {
+   "t": "",
+   "text": "forecasts in Excel first up suppose that"
+  },
+  {
+   "t": "",
+   "text": "we work for a hotel group as analysts"
+  },
+  {
+   "t": "",
+   "text": "and we've been given this data over here"
+  },
+  {
+   "t": "",
+   "text": "that has all of these dates on a"
+  },
+  {
+   "t": "",
+   "text": "quarterly basis every 3 months and we"
+  },
+  {
+   "t": "",
+   "text": "also have the sales on the side with"
+  },
+  {
+   "t": "",
+   "text": "that we want to try to find what our"
+  },
+  {
+   "t": "",
+   "text": "sales are going to be for these next 2"
+  },
+  {
+   "t": "",
+   "text": "years typically this would require some"
+  },
+  {
+   "t": "",
+   "text": "complex statistics but luckily in Excel"
+  },
+  {
+   "t": "",
+   "text": "we have the forecast function and if you"
+  },
+  {
+   "t": "",
+   "text": "want to download this Excel file to"
+  },
+  {
+   "t": "",
+   "text": "follow along you can do so for free in"
+  },
+  {
+   "t": "",
+   "text": "the video description so let's get"
+  },
+  {
+   "t": "",
+   "text": "started here by typing equals forecast"
+  },
+  {
+   "t": "",
+   "text": "the first one we look at is this"
+  },
+  {
+   "t": "",
+   "text": "forecast. linear function hit the top"
+  },
+  {
+   "t": "",
+   "text": "key there and the x is the date we want"
+  },
+  {
+   "t": "",
+   "text": "the prediction for which is this date"
+  },
+  {
+   "t": "",
+   "text": "right here comma the known Ys is the"
+  },
+  {
+   "t": "",
+   "text": "dependent data which in our case is all"
+  },
+  {
+   "t": "",
+   "text": "of the sales here we lock that by"
+  },
+  {
+   "t": "",
+   "text": "pressing the F4 key so it doesn't move"
+  },
+  {
+   "t": "",
+   "text": "as we move the formula down comma and"
+  },
+  {
+   "t": "",
+   "text": "the known independent variable are all"
+  },
+  {
+   "t": "",
+   "text": "of the dates here control shift down and"
+  },
+  {
+   "t": "",
+   "text": "press the F4 key to lock that as well we"
+  },
+  {
+   "t": "",
+   "text": "can close the parenthesis and hit enter"
+  },
+  {
+   "t": "",
+   "text": "and now drag that down by double"
+  },
+  {
+   "t": "",
+   "text": "clicking not this a bit better by adding"
+  },
+  {
+   "t": "",
+   "text": "the comma and removing the decimal"
+  },
+  {
+   "t": "",
+   "text": "places here we've followed what's known"
+  },
+  {
+   "t": "",
+   "text": "as a linear Trend and we can plot it"
+  },
+  {
+   "t": "",
+   "text": "into a chart just to see what that looks"
+  },
+  {
+   "t": "",
+   "text": "like by going to the recommended charts"
+  },
+  {
+   "t": "",
+   "text": "and I'm just going to go for this basic"
+  },
+  {
+   "t": "",
+   "text": "line chart you can see that's pretty"
+  },
+  {
+   "t": "",
+   "text": "much a straight line going up but if we"
+  },
+  {
+   "t": "",
+   "text": "compare that to our historical data we"
+  },
+  {
+   "t": "",
+   "text": "can also create another line chart for"
+  },
+  {
+   "t": "",
+   "text": "that just over here you can see it"
+  },
+  {
+   "t": "",
+   "text": "doesn't actually look the same in fact"
+  },
+  {
+   "t": "",
+   "text": "this historical data has a of up and"
+  },
+  {
+   "t": "",
+   "text": "downs while the linear one just has a"
+  },
+  {
+   "t": "",
+   "text": "straight line when we think about this"
+  },
+  {
+   "t": "",
+   "text": "as it's a hotel resort business in the"
+  },
+  {
+   "t": "",
+   "text": "summer months it goes up and then in the"
+  },
+  {
+   "t": "",
+   "text": "winter months it goes back down that's"
+  },
+  {
+   "t": "",
+   "text": "not really being accounted for in this"
+  },
+  {
+   "t": "",
+   "text": "linear forecast so you might wonder is"
+  },
+  {
+   "t": "",
+   "text": "there a way for us to account for the"
+  },
+  {
+   "t": "",
+   "text": "seasonality so we have a more accurate"
+  },
+  {
+   "t": "",
+   "text": "forecast and luckily there is we type"
+  },
+  {
+   "t": "",
+   "text": "equals forecast here it's going to be"
+  },
+  {
+   "t": "",
+   "text": "the do ETS function the ETS here stands"
+  },
+  {
+   "t": "",
+   "text": "for exponential triple smoothing it's"
+  },
+  {
+   "t": "",
+   "text": "not something you need to know much"
+  },
+  {
+   "t": "",
+   "text": "about but it typically helps with time"
+  },
+  {
+   "t": "",
+   "text": "series data that has seasonality as is"
+  },
+  {
+   "t": "",
+   "text": "our case so we'll select that one and"
+  },
+  {
+   "t": "",
+   "text": "the target date is going to be this"
+  },
+  {
+   "t": "",
+   "text": "forecast date comma and the values are"
+  },
+  {
+   "t": "",
+   "text": "all our historical sales again we'll"
+  },
+  {
+   "t": "",
+   "text": "lock that with the F4 key and the"
+  },
+  {
+   "t": "",
+   "text": "timeline is the historical timeline F4"
+  },
+  {
+   "t": "",
+   "text": "key again you'll notice we have these"
+  },
+  {
+   "t": "",
+   "text": "other options in the square brackets"
+  },
+  {
+   "t": "",
+   "text": "that means that they're optional so"
+  },
+  {
+   "t": "",
+   "text": "we're not really going to add anything"
+  },
+  {
+   "t": "",
+   "text": "and leave it in the default hit enter"
+  },
+  {
+   "t": "",
+   "text": "here and then let's double click on this"
+  },
+  {
+   "t": "",
+   "text": "side to drag it all the way to the"
+  },
+  {
+   "t": "",
+   "text": "bottom we'll call this one up over here"
+  },
+  {
+   "t": "",
+   "text": "seasonal and now we can compare these"
+  },
+  {
+   "t": "",
+   "text": "two methods the linear and the seasonal"
+  },
+  {
+   "t": "",
+   "text": "just by going to insert and let me just"
+  },
+  {
+   "t": "",
+   "text": "select a line chart now you can see"
+  },
+  {
+   "t": "",
+   "text": "there's quite a big difference the"
+  },
+  {
+   "t": "",
+   "text": "orange one is clearly accounting for the"
+  },
+  {
+   "t": "",
+   "text": "seasonality while the linear one just"
+  },
+  {
+   "t": "",
+   "text": "stays straight throughout now the we"
+  },
+  {
+   "t": "",
+   "text": "know there is some seasonality it would"
+  },
+  {
+   "t": "",
+   "text": "be nice to know how long these Cycles"
+  },
+  {
+   "t": "",
+   "text": "are for so over here what we can do is"
+  },
+  {
+   "t": "",
+   "text": "type forecast again and this time we're"
+  },
+  {
+   "t": "",
+   "text": "going to go for forecast dos."
+  },
+  {
+   "t": "",
+   "text": "seasonality hit the Tab Key there and"
+  },
+  {
+   "t": "",
+   "text": "all we want are the historical sales"
+  },
+  {
+   "t": "",
+   "text": "values over here comma and the timeline"
+  },
+  {
+   "t": "",
+   "text": "is going to be our historical dates"
+  },
+  {
+   "t": "",
+   "text": "close those parenthesis and hit enter we"
+  },
+  {
+   "t": "",
+   "text": "get an answer of four here and as this"
+  },
+  {
+   "t": "",
+   "text": "is on a quarterly basis is basically"
+  },
+  {
+   "t": "",
+   "text": "saying every year we can expect to see a"
+  },
+  {
+   "t": "",
+   "text": "similar cycle if the data was on a"
+  },
+  {
+   "t": "",
+   "text": "monthly basis this would be four months"
+  },
+  {
+   "t": "",
+   "text": "but in our case it's four quarters with"
+  },
+  {
+   "t": "",
+   "text": "this information we can consider hiring"
+  },
+  {
+   "t": "",
+   "text": "seasonal workers in the summer months"
+  },
+  {
+   "t": "",
+   "text": "when there's a bit of a peak or even"
+  },
+  {
+   "t": "",
+   "text": "offering discounts in the winter months"
+  },
+  {
+   "t": "",
+   "text": "when there's not much occupancy if"
+  },
+  {
+   "t": "",
+   "text": "you're looking to apply these Concepts"
+  },
+  {
+   "t": "",
+   "text": "to financial modeling like forecasting"
+  },
+  {
+   "t": "",
+   "text": "the share price of a company I'd"
+  },
+  {
+   "t": "",
+   "text": "recommend you check out our complete"
+  },
+  {
+   "t": "",
+   "text": "finance and valuation course where you"
+  },
+  {
+   "t": "",
+   "text": "learn all the essentials of accounting"
+  },
+  {
+   "t": "",
+   "text": "Finance valuation and financial modeling"
+  },
+  {
+   "t": "",
+   "text": "in Excel in the course first we cover"
+  },
+  {
+   "t": "",
+   "text": "financial statement analysis using"
+  },
+  {
+   "t": "",
+   "text": "Apple's real annual report as an example"
+  },
+  {
+   "t": "",
+   "text": "then we get into Financial modeling"
+  },
+  {
+   "t": "",
+   "text": "through a three statement model on Apple"
+  },
+  {
+   "t": "",
+   "text": "after that we begin the valuation phase"
+  },
+  {
+   "t": "",
+   "text": "where we learn to do a discounted cash"
+  },
+  {
+   "t": "",
+   "text": "flow a comparable company's valuation"
+  },
+  {
+   "t": "",
+   "text": "and a prent transactions valuation on"
+  },
+  {
+   "t": "",
+   "text": "adovi looking at the real financial"
+  },
+  {
+   "t": "",
+   "text": "statements will eventually derive a"
+  },
+  {
+   "t": "",
+   "text": "valuation range lastly we'll show you"
+  },
+  {
+   "t": "",
+   "text": "how to present your findings in a stock"
+  },
+  {
+   "t": "",
+   "text": "pitch format we also have a career track"
+  },
+  {
+   "t": "",
+   "text": "called the investment banker program"
+  },
+  {
+   "t": "",
+   "text": "which includes not just the finance and"
+  },
+  {
+   "t": "",
+   "text": "valuation course but also four other"
+  },
+  {
+   "t": "",
+   "text": "courses designed to make you stand out"
+  },
+  {
+   "t": "",
+   "text": "as an investment banker so if you're"
+  },
+  {
+   "t": "",
+   "text": "interested in checking these out head"
+  },
+  {
+   "t": "",
+   "text": "over to the link in the description"
+  },
+  {
+   "t": "",
+   "text": "below"
+  },
+  {
+   "t": "",
+   "text": "all right back to the video at this"
+  },
+  {
+   "t": "",
+   "text": "point you might wonder how confident are"
+  },
+  {
+   "t": "",
+   "text": "we that we're going to hit these numbers"
+  },
+  {
+   "t": "",
+   "text": "that Excel is proposing is this a"
+  },
+  {
+   "t": "",
+   "text": "guarantee or is there some room for"
+  },
+  {
+   "t": "",
+   "text": "error here that's where the forecast"
+  },
+  {
+   "t": "",
+   "text": "dos. confined function comes Hy this"
+  },
+  {
+   "t": "",
+   "text": "function gives us the confidence"
+  },
+  {
+   "t": "",
+   "text": "interval for a forecasted value so you"
+  },
+  {
+   "t": "",
+   "text": "can say it's 95% confident that the"
+  },
+  {
+   "t": "",
+   "text": "value is going to fall within a certain"
+  },
+  {
+   "t": "",
+   "text": "range so let's go ahead and give the"
+  },
+  {
+   "t": "",
+   "text": "that a try now the target date is this"
+  },
+  {
+   "t": "",
+   "text": "date right here comma the values are the"
+  },
+  {
+   "t": "",
+   "text": "sales values right here and let's press"
+  },
+  {
+   "t": "",
+   "text": "the F4 key to fix that comma and the"
+  },
+  {
+   "t": "",
+   "text": "timeline is this timeline over here F4"
+  },
+  {
+   "t": "",
+   "text": "key again and you'll notice we now have"
+  },
+  {
+   "t": "",
+   "text": "this confidence interval this is"
+  },
+  {
+   "t": "",
+   "text": "actually an optional argument if we"
+  },
+  {
+   "t": "",
+   "text": "leave it blank it's going to resort to"
+  },
+  {
+   "t": "",
+   "text": "the default of"
+  },
+  {
+   "t": "",
+   "text": "95% let's just put 95 in here manually"
+  },
+  {
+   "t": "",
+   "text": "for now and hit enter let's Dr that all"
+  },
+  {
+   "t": "",
+   "text": "the way down so what is this number"
+  },
+  {
+   "t": "",
+   "text": "actually saying the 32,000 tells us that"
+  },
+  {
+   "t": "",
+   "text": "the sales are likely to fall within the"
+  },
+  {
+   "t": "",
+   "text": "range of up by 32,000 or down by 32,000"
+  },
+  {
+   "t": "",
+   "text": "so really the upper bound is going to be"
+  },
+  {
+   "t": "",
+   "text": "the seasonal amount plus this 32,000 and"
+  },
+  {
+   "t": "",
+   "text": "then the lower bound is going to be the"
+  },
+  {
+   "t": "",
+   "text": "seasonal amount minus the"
+  },
+  {
+   "t": "",
+   "text": "32,000 the reason we're linking it to"
+  },
+  {
+   "t": "",
+   "text": "the seasonal amount instead of let's say"
+  },
+  {
+   "t": "",
+   "text": "the linear one is because this function"
+  },
+  {
+   "t": "",
+   "text": "by default is accounting for seasonality"
+  },
+  {
+   "t": "",
+   "text": "let's go ahead and drag these two down"
+  },
+  {
+   "t": "",
+   "text": "and the first one is going to be the"
+  },
+  {
+   "t": "",
+   "text": "upper bound and then this is the lower"
+  },
+  {
+   "t": "",
+   "text": "bound from here we could change things"
+  },
+  {
+   "t": "",
+   "text": "like the confidence level from 95 to say"
+  },
+  {
+   "t": "",
+   "text": "99% so it's almost guaranteed that it's"
+  },
+  {
+   "t": "",
+   "text": "going to fall within this range as soon"
+  },
+  {
+   "t": "",
+   "text": "as we do that you'll notice that the"
+  },
+  {
+   "t": "",
+   "text": "range actually goes up that makes sense"
+  },
+  {
+   "t": "",
+   "text": "as it needs to have a bigger range to be"
+  },
+  {
+   "t": "",
+   "text": "more accurate on the flip side side if"
+  },
+  {
+   "t": "",
+   "text": "we change that to say a 90% level of"
+  },
+  {
+   "t": "",
+   "text": "accuracy you can see that these ranges"
+  },
+  {
+   "t": "",
+   "text": "are going to go down by quite a lot that"
+  },
+  {
+   "t": "",
+   "text": "said at 90% there's obviously a higher"
+  },
+  {
+   "t": "",
+   "text": "likelihood that the value doesn't fall"
+  },
+  {
+   "t": "",
+   "text": "within the range having this type of"
+  },
+  {
+   "t": "",
+   "text": "range is really useful because we can"
+  },
+  {
+   "t": "",
+   "text": "have both an optimistic scenario and a"
+  },
+  {
+   "t": "",
+   "text": "more conservative one so far we've been"
+  },
+  {
+   "t": "",
+   "text": "looking at this through formulas but"
+  },
+  {
+   "t": "",
+   "text": "you'll be surprised to know there's"
+  },
+  {
+   "t": "",
+   "text": "actually an easier method which is the"
+  },
+  {
+   "t": "",
+   "text": "forecast sheet let's take a look at it"
+  },
+  {
+   "t": "",
+   "text": "first we'll select all of this data you"
+  },
+  {
+   "t": "",
+   "text": "can do that with the mouse manually and"
+  },
+  {
+   "t": "",
+   "text": "then we'll head over to data and all the"
+  },
+  {
+   "t": "",
+   "text": "way to the right click on the forecast"
+  },
+  {
+   "t": "",
+   "text": "sheet when you do that you'll get this"
+  },
+  {
+   "t": "",
+   "text": "chart pop up that has a line chart in"
+  },
+  {
+   "t": "",
+   "text": "blue this is our historical data and"
+  },
+  {
+   "t": "",
+   "text": "then in Orange in the thick orange one"
+  },
+  {
+   "t": "",
+   "text": "we have our forecasted data alongside"
+  },
+  {
+   "t": "",
+   "text": "the upper and lower bounds of confidence"
+  },
+  {
+   "t": "",
+   "text": "what's nice about this is that we can"
+  },
+  {
+   "t": "",
+   "text": "further customize it so here we have the"
+  },
+  {
+   "t": "",
+   "text": "options and we can choose things like"
+  },
+  {
+   "t": "",
+   "text": "the forecast end date we can also choose"
+  },
+  {
+   "t": "",
+   "text": "the confidence interval amount so you"
+  },
+  {
+   "t": "",
+   "text": "can see the percentage here whether we"
+  },
+  {
+   "t": "",
+   "text": "want seasonality and much more for now"
+  },
+  {
+   "t": "",
+   "text": "we'll just click on Create and you'll"
+  },
+  {
+   "t": "",
+   "text": "notice it generates a new sheet we have"
+  },
+  {
+   "t": "",
+   "text": "the historical data over here which is"
+  },
+  {
+   "t": "",
+   "text": "the same as before but then as we look"
+  },
+  {
+   "t": "",
+   "text": "down towards the bottom half you can see"
+  },
+  {
+   "t": "",
+   "text": "we're actually using the same formulas"
+  },
+  {
+   "t": "",
+   "text": "we used earlier with the forecast ETS"
+  },
+  {
+   "t": "",
+   "text": "here and then the forecast cast"
+  },
+  {
+   "t": "",
+   "text": "confidence over here for the lower bound"
+  },
+  {
+   "t": "",
+   "text": "and right next to that for the upper"
+  },
+  {
+   "t": "",
+   "text": "bound too alongside that we're going to"
+  },
+  {
+   "t": "",
+   "text": "generate this type of visual which is"
+  },
+  {
+   "t": "",
+   "text": "the same one we were seeing in the"
+  },
+  {
+   "t": "",
+   "text": "preview so while the forecast functions"
+  },
+  {
+   "t": "",
+   "text": "might give you a bit more flexibility"
+  },
+  {
+   "t": "",
+   "text": "the forecast sheet is definitely the"
+  },
+  {
+   "t": "",
+   "text": "faster method if you want to learn more"
+  },
+  {
+   "t": "",
+   "text": "about forecasting specifically to find"
+  },
+  {
+   "t": "",
+   "text": "out the share price of a company check"
+  },
+  {
+   "t": "",
+   "text": "out this video over here on the"
+  },
+  {
+   "t": "",
+   "text": "valuation methods or take our complete"
+  },
+  {
+   "t": "",
+   "text": "Finance evaluation course over here hit"
+  },
+  {
+   "t": "",
+   "text": "that like and that subscribe and I'll"
+  },
+  {
+   "t": "",
+   "text": "catch you the next one"
+  },
+  {
+   "t": "",
+   "text": "if you work in any of these roles"
+  },
+  {
+   "t": "",
+   "text": "forecasting is one of the most important"
+  },
+  {
+   "t": "",
+   "text": "skills you can learn an accurate"
+  },
+  {
+   "t": "",
+   "text": "forecast can help you save money boost"
+  },
+  {
+   "t": "",
+   "text": "productivity and even increase customer"
+  },
+  {
+   "t": "",
+   "text": "satisfaction so let me show you all the"
+  },
+  {
+   "t": "",
+   "text": "steps you need to create precise"
+  },
+  {
+   "t": "",
+   "text": "forecasts in Excel first up suppose that"
+  },
+  {
+   "t": "",
+   "text": "we work for a hotel group as analysts"
+  },
+  {
+   "t": "",
+   "text": "and we've been given this data over here"
+  },
+  {
+   "t": "",
+   "text": "that has all of these dates on a"
+  },
+  {
+   "t": "",
+   "text": "quarterly basis every 3 months and we"
+  },
+  {
+   "t": "",
+   "text": "also have the sales on the side with"
+  },
+  {
+   "t": "",
+   "text": "that we want to try to find what our"
+  },
+  {
+   "t": "",
+   "text": "sales are going to be for these next 2"
+  },
+  {
+   "t": "",
+   "text": "years typically this would require some"
+  },
+  {
+   "t": "",
+   "text": "complex statistics but luckily in Excel"
+  },
+  {
+   "t": "",
+   "text": "we have the forecast function and if you"
+  },
+  {
+   "t": "",
+   "text": "want to download this Excel file to"
+  },
+  {
+   "t": "",
+   "text": "follow along you can do so for free in"
+  },
+  {
+   "t": "",
+   "text": "the video description so let's get"
+  },
+  {
+   "t": "",
+   "text": "started here by typing equals forecast"
+  },
+  {
+   "t": "",
+   "text": "the first one we look at is this"
+  },
+  {
+   "t": "",
+   "text": "forecast. linear function hit the top"
+  },
+  {
+   "t": "",
+   "text": "key there and the x is the date we want"
+  },
+  {
+   "t": "",
+   "text": "the prediction for which is this date"
+  },
+  {
+   "t": "",
+   "text": "right here comma the known Ys is the"
+  },
+  {
+   "t": "",
+   "text": "dependent data which in our case is all"
+  },
+  {
+   "t": "",
+   "text": "of the sales here we lock that by"
+  },
+  {
+   "t": "",
+   "text": "pressing the F4 key so it doesn't move"
+  },
+  {
+   "t": "",
+   "text": "as we move the formula down comma and"
+  },
+  {
+   "t": "",
+   "text": "the known independent variable are all"
+  },
+  {
+   "t": "",
+   "text": "of the dates here control shift down and"
+  },
+  {
+   "t": "",
+   "text": "press the F4 key to lock that as well we"
+  },
+  {
+   "t": "",
+   "text": "can close the parenthesis and hit enter"
+  },
+  {
+   "t": "",
+   "text": "and now drag that down by double"
+  },
+  {
+   "t": "",
+   "text": "clicking not this a bit better by adding"
+  },
+  {
+   "t": "",
+   "text": "the comma and removing the decimal"
+  },
+  {
+   "t": "",
+   "text": "places here we've followed what's known"
+  },
+  {
+   "t": "",
+   "text": "as a linear Trend and we can plot it"
+  },
+  {
+   "t": "",
+   "text": "into a chart just to see what that looks"
+  },
+  {
+   "t": "",
+   "text": "like by going to the recommended charts"
+  },
+  {
+   "t": "",
+   "text": "and I'm just going to go for this basic"
+  },
+  {
+   "t": "",
+   "text": "line chart you can see that's pretty"
+  },
+  {
+   "t": "",
+   "text": "much a straight line going up but if we"
+  },
+  {
+   "t": "",
+   "text": "compare that to our historical data we"
+  },
+  {
+   "t": "",
+   "text": "can also create another line chart for"
+  },
+  {
+   "t": "",
+   "text": "that just over here you can see it"
+  },
+  {
+   "t": "",
+   "text": "doesn't actually look the same in fact"
+  },
+  {
+   "t": "",
+   "text": "this historical data has a of up and"
+  },
+  {
+   "t": "",
+   "text": "downs while the linear one just has a"
+  },
+  {
+   "t": "",
+   "text": "straight line when we think about this"
+  },
+  {
+   "t": "",
+   "text": "as it's a hotel resort business in the"
+  },
+  {
+   "t": "",
+   "text": "summer months it goes up and then in the"
+  },
+  {
+   "t": "",
+   "text": "winter months it goes back down that's"
+  },
+  {
+   "t": "",
+   "text": "not really being accounted for in this"
+  },
+  {
+   "t": "",
+   "text": "linear forecast so you might wonder is"
+  },
+  {
+   "t": "",
+   "text": "there a way for us to account for the"
+  },
+  {
+   "t": "",
+   "text": "seasonality so we have a more accurate"
+  },
+  {
+   "t": "",
+   "text": "forecast and luckily there is we type"
+  },
+  {
+   "t": "",
+   "text": "equals forecast here it's going to be"
+  },
+  {
+   "t": "",
+   "text": "the do ETS function the ETS here stands"
+  },
+  {
+   "t": "",
+   "text": "for exponential triple smoothing it's"
+  },
+  {
+   "t": "",
+   "text": "not something you need to know much"
+  },
+  {
+   "t": "",
+   "text": "about but it typically helps with time"
+  },
+  {
+   "t": "",
+   "text": "series data that has seasonality as is"
+  },
+  {
+   "t": "",
+   "text": "our case so we'll select that one and"
+  },
+  {
+   "t": "",
+   "text": "the target date is going to be this"
+  },
+  {
+   "t": "",
+   "text": "forecast date comma and the values are"
+  },
+  {
+   "t": "",
+   "text": "all our historical sales again we'll"
+  },
+  {
+   "t": "",
+   "text": "lock that with the F4 key and the"
+  },
+  {
+   "t": "",
+   "text": "timeline is the historical timeline F4"
+  },
+  {
+   "t": "",
+   "text": "key again you'll notice we have these"
+  },
+  {
+   "t": "",
+   "text": "other options in the square brackets"
+  },
+  {
+   "t": "",
+   "text": "that means that they're optional so"
+  },
+  {
+   "t": "",
+   "text": "we're not really going to add anything"
+  },
+  {
+   "t": "",
+   "text": "and leave it in the default hit enter"
+  },
+  {
+   "t": "",
+   "text": "here and then let's double click on this"
+  },
+  {
+   "t": "",
+   "text": "side to drag it all the way to the"
+  },
+  {
+   "t": "",
+   "text": "bottom we'll call this one up over here"
+  },
+  {
+   "t": "",
+   "text": "seasonal and now we can compare these"
+  },
+  {
+   "t": "",
+   "text": "two methods the linear and the seasonal"
+  },
+  {
+   "t": "",
+   "text": "just by going to insert and let me just"
+  },
+  {
+   "t": "",
+   "text": "select a line chart now you can see"
+  },
+  {
+   "t": "",
+   "text": "there's quite a big difference the"
+  },
+  {
+   "t": "",
+   "text": "orange one is clearly accounting for the"
+  },
+  {
+   "t": "",
+   "text": "seasonality while the linear one just"
+  },
+  {
+   "t": "",
+   "text": "stays straight throughout now the we"
+  },
+  {
+   "t": "",
+   "text": "know there is some seasonality it would"
+  },
+  {
+   "t": "",
+   "text": "be nice to know how long these Cycles"
+  },
+  {
+   "t": "",
+   "text": "are for so over here what we can do is"
+  },
+  {
+   "t": "",
+   "text": "type forecast again and this time we're"
+  },
+  {
+   "t": "",
+   "text": "going to go for forecast dos."
+  },
+  {
+   "t": "",
+   "text": "seasonality hit the Tab Key there and"
+  },
+  {
+   "t": "",
+   "text": "all we want are the historical sales"
+  },
+  {
+   "t": "",
+   "text": "values over here comma and the timeline"
+  },
+  {
+   "t": "",
+   "text": "is going to be our historical dates"
+  },
+  {
+   "t": "",
+   "text": "close those parenthesis and hit enter we"
+  },
+  {
+   "t": "",
+   "text": "get an answer of four here and as this"
+  },
+  {
+   "t": "",
+   "text": "is on a quarterly basis is basically"
+  },
+  {
+   "t": "",
+   "text": "saying every year we can expect to see a"
+  },
+  {
+   "t": "",
+   "text": "similar cycle if the data was on a"
+  },
+  {
+   "t": "",
+   "text": "monthly basis this would be four months"
+  },
+  {
+   "t": "",
+   "text": "but in our case it's four quarters with"
+  },
+  {
+   "t": "",
+   "text": "this information we can consider hiring"
+  },
+  {
+   "t": "",
+   "text": "seasonal workers in the summer months"
+  },
+  {
+   "t": "",
+   "text": "when there's a bit of a peak or even"
+  },
+  {
+   "t": "",
+   "text": "offering discounts in the winter months"
+  },
+  {
+   "t": "",
+   "text": "when there's not much occupancy if"
+  },
+  {
+   "t": "",
+   "text": "you're looking to apply these Concepts"
+  },
+  {
+   "t": "",
+   "text": "to financial modeling like forecasting"
+  },
+  {
+   "t": "",
+   "text": "the share price of a company I'd"
+  },
+  {
+   "t": "",
+   "text": "recommend you check out our complete"
+  },
+  {
+   "t": "",
+   "text": "finance and valuation course where you"
+  },
+  {
+   "t": "",
+   "text": "learn all the essentials of accounting"
+  },
+  {
+   "t": "",
+   "text": "Finance valuation and financial modeling"
+  },
+  {
+   "t": "",
+   "text": "in Excel in the course first we cover"
+  },
+  {
+   "t": "",
+   "text": "financial statement analysis using"
+  },
+  {
+   "t": "",
+   "text": "Apple's real annual report as an example"
+  },
+  {
+   "t": "",
+   "text": "then we get into Financial modeling"
+  },
+  {
+   "t": "",
+   "text": "through a three statement model on Apple"
+  },
+  {
+   "t": "",
+   "text": "after that we begin the valuation phase"
+  },
+  {
+   "t": "",
+   "text": "where we learn to do a discounted cash"
+  },
+  {
+   "t": "",
+   "text": "flow a comparable company's valuation"
+  },
+  {
+   "t": "",
+   "text": "and a prent transactions valuation on"
+  },
+  {
+   "t": "",
+   "text": "adovi looking at the real financial"
+  },
+  {
+   "t": "",
+   "text": "statements will eventually derive a"
+  },
+  {
+   "t": "",
+   "text": "valuation range lastly we'll show you"
+  },
+  {
+   "t": "",
+   "text": "how to present your findings in a stock"
+  },
+  {
+   "t": "",
+   "text": "pitch format we also have a career track"
+  },
+  {
+   "t": "",
+   "text": "called the investment banker program"
+  },
+  {
+   "t": "",
+   "text": "which includes not just the finance and"
+  },
+  {
+   "t": "",
+   "text": "valuation course but also four other"
+  },
+  {
+   "t": "",
+   "text": "courses designed to make you stand out"
+  },
+  {
+   "t": "",
+   "text": "as an investment banker so if you're"
+  },
+  {
+   "t": "",
+   "text": "interested in checking these out head"
+  },
+  {
+   "t": "",
+   "text": "over to the link in the description"
+  },
+  {
+   "t": "",
+   "text": "below"
+  },
+  {
+   "t": "",
+   "text": "all right back to the video at this"
+  },
+  {
+   "t": "",
+   "text": "point you might wonder how confident are"
+  },
+  {
+   "t": "",
+   "text": "we that we're going to hit these numbers"
+  },
+  {
+   "t": "",
+   "text": "that Excel is proposing is this a"
+  },
+  {
+   "t": "",
+   "text": "guarantee or is there some room for"
+  },
+  {
+   "t": "",
+   "text": "error here that's where the forecast"
+  },
+  {
+   "t": "",
+   "text": "dos. confined function comes Hy this"
+  },
+  {
+   "t": "",
+   "text": "function gives us the confidence"
+  },
+  {
+   "t": "",
+   "text": "interval for a forecasted value so you"
+  },
+  {
+   "t": "",
+   "text": "can say it's 95% confident that the"
+  },
+  {
+   "t": "",
+   "text": "value is going to fall within a certain"
+  },
+  {
+   "t": "",
+   "text": "range so let's go ahead and give the"
+  },
+  {
+   "t": "",
+   "text": "that a try now the target date is this"
+  },
+  {
+   "t": "",
+   "text": "date right here comma the values are the"
+  },
+  {
+   "t": "",
+   "text": "sales values right here and let's press"
+  },
+  {
+   "t": "",
+   "text": "the F4 key to fix that comma and the"
+  },
+  {
+   "t": "",
+   "text": "timeline is this timeline over here F4"
+  },
+  {
+   "t": "",
+   "text": "key again and you'll notice we now have"
+  },
+  {
+   "t": "",
+   "text": "this confidence interval this is"
+  },
+  {
+   "t": "",
+   "text": "actually an optional argument if we"
+  },
+  {
+   "t": "",
+   "text": "leave it blank it's going to resort to"
+  },
+  {
+   "t": "",
+   "text": "the default of"
+  },
+  {
+   "t": "",
+   "text": "95% let's just put 95 in here manually"
+  },
+  {
+   "t": "",
+   "text": "for now and hit enter let's Dr that all"
+  },
+  {
+   "t": "",
+   "text": "the way down so what is this number"
+  },
+  {
+   "t": "",
+   "text": "actually saying the 32,000 tells us that"
+  },
+  {
+   "t": "",
+   "text": "the sales are likely to fall within the"
+  },
+  {
+   "t": "",
+   "text": "range of up by 32,000 or down by 32,000"
+  },
+  {
+   "t": "",
+   "text": "so really the upper bound is going to be"
+  },
+  {
+   "t": "",
+   "text": "the seasonal amount plus this 32,000 and"
+  },
+  {
+   "t": "",
+   "text": "then the lower bound is going to be the"
+  },
+  {
+   "t": "",
+   "text": "seasonal amount minus the"
+  },
+  {
+   "t": "",
+   "text": "32,000 the reason we're linking it to"
+  },
+  {
+   "t": "",
+   "text": "the seasonal amount instead of let's say"
+  },
+  {
+   "t": "",
+   "text": "the linear one is because this function"
+  },
+  {
+   "t": "",
+   "text": "by default is accounting for seasonality"
+  },
+  {
+   "t": "",
+   "text": "let's go ahead and drag these two down"
+  },
+  {
+   "t": "",
+   "text": "and the first one is going to be the"
+  },
+  {
+   "t": "",
+   "text": "upper bound and then this is the lower"
+  },
+  {
+   "t": "",
+   "text": "bound from here we could change things"
+  },
+  {
+   "t": "",
+   "text": "like the confidence level from 95 to say"
+  },
+  {
+   "t": "",
+   "text": "99% so it's almost guaranteed that it's"
+  },
+  {
+   "t": "",
+   "text": "going to fall within this range as soon"
+  },
+  {
+   "t": "",
+   "text": "as we do that you'll notice that the"
+  },
+  {
+   "t": "",
+   "text": "range actually goes up that makes sense"
+  },
+  {
+   "t": "",
+   "text": "as it needs to have a bigger range to be"
+  },
+  {
+   "t": "",
+   "text": "more accurate on the flip side side if"
+  },
+  {
+   "t": "",
+   "text": "we change that to say a 90% level of"
+  },
+  {
+   "t": "",
+   "text": "accuracy you can see that these ranges"
+  },
+  {
+   "t": "",
+   "text": "are going to go down by quite a lot that"
+  },
+  {
+   "t": "",
+   "text": "said at 90% there's obviously a higher"
+  },
+  {
+   "t": "",
+   "text": "likelihood that the value doesn't fall"
+  },
+  {
+   "t": "",
+   "text": "within the range having this type of"
+  },
+  {
+   "t": "",
+   "text": "range is really useful because we can"
+  },
+  {
+   "t": "",
+   "text": "have both an optimistic scenario and a"
+  },
+  {
+   "t": "",
+   "text": "more conservative one so far we've been"
+  },
+  {
+   "t": "",
+   "text": "looking at this through formulas but"
+  },
+  {
+   "t": "",
+   "text": "you'll be surprised to know there's"
+  },
+  {
+   "t": "",
+   "text": "actually an easier method which is the"
+  },
+  {
+   "t": "",
+   "text": "forecast sheet let's take a look at it"
+  },
+  {
+   "t": "",
+   "text": "first we'll select all of this data you"
+  },
+  {
+   "t": "",
+   "text": "can do that with the mouse manually and"
+  },
+  {
+   "t": "",
+   "text": "then we'll head over to data and all the"
+  },
+  {
+   "t": "",
+   "text": "way to the right click on the forecast"
+  },
+  {
+   "t": "",
+   "text": "sheet when you do that you'll get this"
+  },
+  {
+   "t": "",
+   "text": "chart pop up that has a line chart in"
+  },
+  {
+   "t": "",
+   "text": "blue this is our historical data and"
+  },
+  {
+   "t": "",
+   "text": "then in Orange in the thick orange one"
+  },
+  {
+   "t": "",
+   "text": "we have our forecasted data alongside"
+  },
+  {
+   "t": "",
+   "text": "the upper and lower bounds of confidence"
+  },
+  {
+   "t": "",
+   "text": "what's nice about this is that we can"
+  },
+  {
+   "t": "",
+   "text": "further customize it so here we have the"
+  },
+  {
+   "t": "",
+   "text": "options and we can choose things like"
+  },
+  {
+   "t": "",
+   "text": "the forecast end date we can also choose"
+  },
+  {
+   "t": "",
+   "text": "the confidence interval amount so you"
+  },
+  {
+   "t": "",
+   "text": "can see the percentage here whether we"
+  },
+  {
+   "t": "",
+   "text": "want seasonality and much more for now"
+  },
+  {
+   "t": "",
+   "text": "we'll just click on Create and you'll"
+  },
+  {
+   "t": "",
+   "text": "notice it generates a new sheet we have"
+  },
+  {
+   "t": "",
+   "text": "the historical data over here which is"
+  },
+  {
+   "t": "",
+   "text": "the same as before but then as we look"
+  },
+  {
+   "t": "",
+   "text": "down towards the bottom half you can see"
+  },
+  {
+   "t": "",
+   "text": "we're actually using the same formulas"
+  },
+  {
+   "t": "",
+   "text": "we used earlier with the forecast ETS"
+  },
+  {
+   "t": "",
+   "text": "here and then the forecast cast"
+  },
+  {
+   "t": "",
+   "text": "confidence over here for the lower bound"
+  },
+  {
+   "t": "",
+   "text": "and right next to that for the upper"
+  },
+  {
+   "t": "",
+   "text": "bound too alongside that we're going to"
+  },
+  {
+   "t": "",
+   "text": "generate this type of visual which is"
+  },
+  {
+   "t": "",
+   "text": "the same one we were seeing in the"
+  },
+  {
+   "t": "",
+   "text": "preview so while the forecast functions"
+  },
+  {
+   "t": "",
+   "text": "might give you a bit more flexibility"
+  },
+  {
+   "t": "",
+   "text": "the forecast sheet is definitely the"
+  },
+  {
+   "t": "",
+   "text": "faster method if you want to learn more"
+  },
+  {
+   "t": "",
+   "text": "about forecasting specifically to find"
+  },
+  {
+   "t": "",
+   "text": "out the share price of a company check"
+  },
+  {
+   "t": "",
+   "text": "out this video over here on the"
+  },
+  {
+   "t": "",
+   "text": "valuation methods or take our complete"
+  },
+  {
+   "t": "",
+   "text": "Finance evaluation course over here hit"
+  },
+  {
+   "t": "",
+   "text": "that like and that subscribe and I'll"
+  },
+  {
+   "t": "",
+   "text": "catch you the next one"
+  }
+ ]
+}

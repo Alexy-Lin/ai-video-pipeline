@@ -9,6 +9,11 @@ ref/whisper/
 
 # ---- 第三方克隆（CosyVoice 自带 .git，单独维护）----
 third_party/
+# 341 种代码动画提示词库（第三方仓库，84MB，按需 git clone 到 ref/ 即可）
+ref/code-animation-prompts/
+
+# ---- ego 浏览器任务目录（临时产物）----
+ego/
 
 # ---- 录屏素材与渲染产物（约 370MB，由 scripts/capture-frames.mjs 重录）----
 public/

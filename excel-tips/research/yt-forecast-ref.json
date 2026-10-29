@@ -1,0 +1,75 @@
+{
+ "query": "excel forecast sheet",
+ "results": [
+  {
+   "title": "Forecasting in Excel: How to use Forecast Sheets in Excel",
+   "href": "/watch?v=Q8HhNtBceG8&pp=ygUUZXhjZWwgZm9yZWNhc3Qgc2hlZXQ%3D",
+   "channel": "Simon Sez IT",
+   "meta": [
+    "6.3万",
+    "5年前"
+   ]
+  },
+  {
+   "title": "Forecasting in Excel with Seasonality (Forecast Sheet)",
+   "href": "/watch?v=j22tLUQQDh4&pp=ygUUZXhjZWwgZm9yZWNhc3Qgc2hlZXQ%3D",
+   "channel": "Leila Gharani",
+   "meta": [
+    "99万",
+    "4年前"
+   ]
+  },
+  {
+   "title": "Forecasting in Excel: MUST-KNOW for Any Analyst",
+   "href": "/watch?v=6rqhMnOgQnU&pp=ygUUZXhjZWwgZm9yZWNhc3Qgc2hlZXQ%3D",
+   "channel": "Kenji Explains",
+   "meta": [
+    "28万",
+    "2年前"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "title": "Forecasting in Excel: How to use Forecast Sheets in Excel",
+   "href": "/watch?v=Q8HhNtBceG8&pp=ygUUZXhjZWwgZm9yZWNhc3Qgc2hlZXQ%3D",
+   "channel": "Simon Sez IT",
+   "meta": [
+    "6.3万",
+    "5年前"
+   ],
+   "meta2": {
+    "views": "63118",
+    "length": "415",
+    "tracks": [
+     "en/asr"
+    ]
+   },
+   "desc": "✅To read the accompanying Forecasting Sheets in Excel article to this video, go here ➡️ https://www.simonsezit.com/article/predict-future-values-using-forecast-sheet-in-excel/\n\nIf you use Excel 2016, 2019, or Excel for Office 365, you will have access to one of the newer features of Excel: Forecast Sheet. If you have historical time-based data, you can use it to create a forecast and predict future values. A forecast can help you predict trends, future sales, future requirements, and needs so you can make better business decisions.  \n\nWhen you create a forecast, Excel creates a new worksheet that contains a table that includes the historical and predicted values and a chart that shows the data. All with the click of one button.  \n\nGET FOUR FREE COURSES 👉 https://www.simonsezit.com/four-free-courses\n\n🌍 Get unlimited training with Simon Sez IT’s 200+ courses ⏩ https://www.simonsezit.com/courses/\n\n🚀 Supercharge your skills with a FREE 14-day trial to our extensive training library. Learn from 10,000+ ad-free videos and begin your transformation today! ➡️ https://simonsezit.lpages.co/ssit-14-day-free/\n\nCheck out our Excel 2021 tutorials for beginners playlist here \n✅https://www.yout",
+   "error": "Unexpected end of JSON input"
+  },
+  {
+   "title": "Forecasting in Excel with Seasonality (Forecast Sheet)",
+   "href": "/watch?v=j22tLUQQDh4&pp=ygUUZXhjZWwgZm9yZWNhc3Qgc2hlZXQ%3D",
+   "channel": "Leila Gharani",
+   "meta": [
+    "99万",
+    "4年前"
+   ],
+   "meta2": {
+    "views": "990054",
+    "length": "342",
+    "tracks": [
+     "ar/manual",
+     "fr-FR/manual",
+     "pt-BR/manual",
+     "es-US/manual",
+     "en/manual",
+     "en/asr"
+    ]
+   },
+   "desc": "Forecasting in Excel with seasonality: use the Forecast Sheet to turn past sales into a forecast with confidence bounds in a few clicks.\n⬇️ Download the practice workbook: https://www.xelplus.com/forecasting-in-excel-made-simple/#download\n\n📊 New to financial data? Learn the basics in 30 minutes with our free course: https://link.xelplus.com/yt-free-finance-basics\n\nThe example uses Home Depot's quarterly sales from 2012 to 2021. You'll see why a straight trendline misses the seasonal peaks and valleys, how to create a forecast from Data → Forecast Sheet, and how to read the forecast line and its upper and lower confidence bounds. You'll also see how to start the forecast before your last actual data point, so you can check it against real numbers, and the FORECAST.ETS formula Excel writes for you.\n\nAll you need is a timeline with consistent steps, like months, quarters or years. The data doesn't have to be perfect. FORECAST.ETS can handle up to 30% missing points.\n\nThe Forecast Sheet is available in Excel 2016 and later.\n\n★ 500,000+ professionals learn Excel with our courses: https://link.xelplus.com/yt-d-all-courses\n\n✉️ Get one practical Excel tip every week in our free newsletter",
+   "error": "Unexpected end of JSON input"
+  }
+ ]
+}
